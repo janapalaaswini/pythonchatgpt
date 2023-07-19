@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+{% block content %}
+<h1>hi honey</h1>
+<h3>page loaded successfully</h3>  
+<br/> 
+{% for post in abc %}
+   <ul>
+      <li>
+        <img src="{{post.image_url}}"alt="image"style="width:100px;height:100px;">
+        <h1>This is heading 1</h1>
+<p>hi baby</p>
+<hr>
+<h2>hello vinnu</h2>
+<p>it is a beautiful</p>
+<hr>
+      </li>
+      <br/>
+   </ul>
+{% endfor %}
+
+{% endblock %}
+    
